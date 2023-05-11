@@ -26,7 +26,7 @@
 <nav class="list-nav p-4">
   <ul>
     {#each menuItems as item}
-      <li><a href={item.url} on:click={() => closeDrawer}>{item.label}</a></li>
+      <li><a href={item.url} on:click={closeDrawer}>{item.label}</a></li>
     {/each}
   </ul>
 </nav>
